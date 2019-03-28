@@ -10,6 +10,7 @@ import android.widget.Toast;
  *
  * @date 2019/3/27
  */
+@SetPresenter(TestPresenter.class)
 public class TestActivity extends BaseActivity<TestPresenter> {
 
     @Override
@@ -21,11 +22,6 @@ public class TestActivity extends BaseActivity<TestPresenter> {
                 getPresenter().upDate();
             }
         });
-    }
-
-    @Override
-    protected TestPresenter setP() {
-        return new TestPresenter() ;
     }
 
     @Override

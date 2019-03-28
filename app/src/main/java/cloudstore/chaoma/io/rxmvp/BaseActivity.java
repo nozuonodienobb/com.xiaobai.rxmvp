@@ -54,8 +54,6 @@ public abstract class BaseActivity<P extends BaseImplPresenter>  extends AppComp
         return vpProxy.getPresenter();
     }
 
-    protected abstract P setP();
-
     @LayoutRes
     protected abstract int getResId();
 
