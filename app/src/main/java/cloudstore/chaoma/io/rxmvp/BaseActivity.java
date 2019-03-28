@@ -26,7 +26,6 @@ public abstract class BaseActivity<P extends BaseImplPresenter>  extends AppComp
     @Override
     protected void onStart() {
         super.onStart();
-
     }
 
     @Override
